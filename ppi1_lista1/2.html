@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Protocolo HTTP</title>
+</head>
+
+<body>
+    <h1>O que é HTTP?</h1>
+    <p>O procotolo HTTP é o responsável pela comunicação entre clientes (navegadores) e servidores web. Ele usa
+        requisições (requests) e respostas (responses).</p>
+
+    <img src="protocoloHTTP.png" alt="Esquema de protocolo HTTP">
+
+    <h2>Exemplo de Request:</h2>
+    <pre>
+Get /index.html HTTP/1.1
+Host: www.exemplo.com
+User-agent: Mozilla/5.0
+Accept: text/html
+    </pre>
+
+    <h2>Exemplo de Response:</h2>
+    <pre>
+HTTP/1.1 200 OK 
+Content-Type: text/html
+Contetn-Lenght: 1024
+    </pre>
+
+</body>
+
+</html>
