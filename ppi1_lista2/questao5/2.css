@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+
+.box {
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.box1 {
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: red;
+}
+
+.box4 {
+    background-color: yellow;
+}

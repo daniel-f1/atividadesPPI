@@ -1,0 +1,28 @@
+<!-- Seja o trecho de código HTML e CSS da figura a seguir e explique porque cada regra foi aplicada em cada item.
+
+Item 1: <li id="lip0">Abacaxi</li>
+Aplica a regra 6 (#lip0) → cor: azul
+
+Item 2: <li class="fruta">Melão</li>
+Aplica a regra 3 (.fruta) → cor: cinza
+
+Item 3: <li id="lip2" class="fruta">Pera</li>
+Regra 6 (#lip2) tem mais peso que a classe .fruta → cor: azul
+
+Item 4: <li id="lip3" class="fruta">Uva</li>
+Aplica a regra 7 (#lip3.fruta) que é mais específica → cor: laranja
+
+Item 5: <li id="lip4" class="fruta">Maçã</li>
+Só se encaixa na regra 3 (.fruta) → cor: cinza
+
+Item 6: <li class="churras">Carne</li>
+Aplica a regra 2 (.churras) → cor: verde
+
+Item 7: <li class="churras">Linguiça</li>
+Aplica a regra 4 (li + li.churras) pois está logo após outro <li>
+Regra 4 tem mais especificidade → cor: preto
+
+Item 8: <li id="lip7" class="churras" draggable="true">Pão de alho</li>
+Aplica a regra 5 (.churras[draggable="true"]) → cor: magenta 
+
+Ainda, as regras com mais especificidade (tipo id > classe > elemento) têm prioridade. Se duas regras se aplicam, a mais específica vence. E se a especificidade empatar, vale a última regra lida.-->
