@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bandeiras com HTML e CSS</title>
+    <style>
+        .bandeira {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            border: 1px solid #000;
+        }
+
+        #japao.bandeira {
+            background: white;
+            position: relative;
+        }
+
+        #japao.bandeira>div.circulo {
+            width: 100px;
+            height: 100px;
+            background: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #alemanha.bandeira>div {
+            height: 33.33%;
+            width: 100%;
+        }
+
+        #alemanha.bandeira>div.preta {
+            background: black;
+        }
+
+        #alemanha.bandeira>div.vermelha {
+            background: red;
+        }
+
+        #alemanha.bandeira>div.amarela {
+            background: yellow;
+        }
+
+        #holanda.bandeira>div {
+            height: 33.33%;
+            width: 100%;
+        }
+
+        #holanda.bandeira>div.vermelha {
+            background: red;
+        }
+
+        #holanda.bandeira>div.branca {
+            background: white;
+        }
+
+        #holanda.bandeira>div.azul {
+            background: blue;
+        }
+
+        #italia.bandeira {
+            display: flex;
+        }
+
+        #italia.bandeira>div {
+            width: 33.33%;
+            height: 100%;
+        }
+
+        #italia.bandeira>div.verde {
+            background: green;
+        }
+
+        #italia.bandeira>div.branca {
+            background: white;
+        }
+
+        #italia.bandeira>div.vermelha {
+            background: red;
+        }
+
+        .links {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .links a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="links">
+        <a href="#japao">Bandeira Japão</a>
+        <a href="#alemanha">Bandeira Alemanha</a>
+        <a href="#holanda">Bandeira Holanda</a>
+        <a href="#italia">Bandeira Itália</a>
+    </div>
+
+    <div id="japao" class="bandeira">
+        <div class="circulo"></div>
+    </div>
+
+    <div id="alemanha" class="bandeira">
+        <div class="preta"></div>
+        <div class="vermelha"></div>
+        <div class="amarela"></div>
+    </div>
+
+    <div id="holanda" class="bandeira">
+        <div class="vermelha"></div>
+        <div class="branca"></div>
+        <div class="azul"></div>
+    </div>
+
+    <div id="italia" class="bandeira">
+        <div class="verde"></div>
+        <div class="branca"></div>
+        <div class="vermelha"></div>
+    </div>
+
+</body>
+
+</html>

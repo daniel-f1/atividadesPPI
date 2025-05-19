@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel {
+    display: flex;
+    gap: 12px;
+    width: 90vw;
+    height: 70vh;
+    transition: all 0.3s ease;
+}
+
+.card {
+    flex: 1;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card:hover {
+    flex: 4;
+}
+
+.card .texto {
+    text-align: right;
+}
+
+.card .texto h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card .texto p {
+    font-size: 0.9rem;
+}
